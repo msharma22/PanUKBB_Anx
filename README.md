@@ -12,7 +12,7 @@ Includes scripts used to generate input files for LocusZoom and produce Manhatta
 Includes used to perform our TWAS using S-prediXcan, along with scripts to generate Manhattan plots of the resulting summary statistics.
 
 **Colocalization**
-Includes scripts for running colocalization analyses with <coloc> and <coloc.susie>, as well as for generating LocusCompareR plots. Several scripts in this folder address formatting requirements specific to LocusCompareR (adding rsids to GWAS input). 
+Includes scripts for running colocalization analyses with `coloc`  and `coloc.susie`, as well as for generating LocusCompareR plots. Several scripts in this folder address formatting requirements specific to LocusCompareR (adding rsids to GWAS input). 
 
 **FUMA**
 Includes scripts for constructing our gene sets of interest and background gene sets for gene set enrichment analysis using FUMA.
