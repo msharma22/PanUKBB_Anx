@@ -2,15 +2,15 @@
 
 Here, you will find the scripts and files used for the research article, _Brain Transcriptome-wide Association Studies in Diverse Ancestral Populations Reveal Genes Implicated in an Anxiety-Related Phenotype_ by Maya Z. Sharma and Heather E. Wheeler. 
 
-sumstat_prep_scripts: 
+Sumstat_Prep: 
 
-fine-mapping_scripts: 
+Fine-Mapping:
 
-twas_scripts: 
+TWAS:  
 
-colocalization_scripts: 
+Colocalization: 
 
-FUMA_scripts: 
+FUMA:
 
 
 
