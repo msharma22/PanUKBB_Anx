@@ -1,12 +1,11 @@
-#!/bin/bash
-
 ##############################################################Worrier/Anxious Feelings (1980)###################################################################
 #pan-ukb sumstats in /home/maya/PANUKBB/Pan-UKBB_sumstats/hg37_varID_categorical-1980-both_sexes.tsv.gz
+#!/bin/bash
 
 #reformat pan-ukb for GWAS_TOOLS, you only need to do this once 
 #awk statement creates a chr_pos_ref_alt_build SNP string and then pulls the rest of the columns
-# zcat /home/kayla/PrediXcan/continuous-1389-both_sexes.tsv.bgz |awk '{print "chr" $1 "_" $2 "_" $3 "_" $4 "_b37\t" $0}' > hg37_varID_continuous-1389-both_sexes.tsv 
-# gzip hg37_varID_continuous-1389-both_sexes.tsv #note: this command takes a few minutes
+zcat /home/kayla/PrediXcan/continuous-1389-both_sexes.tsv.bgz |awk '{print "chr" $1 "_" $2 "_" $3 "_" $4 "_b37\t" $0}' > hg37_varID_continuous-1389-both_sexes.tsv 
+gzip hg37_varID_continuous-1389-both_sexes.tsv #note: this command takes a few minutes
 
 
 GWAS_TOOLS=/home/wheelerlab3/summary-gwas-imputation/src
